@@ -52,7 +52,12 @@ textarea {
 }
 
 body {
-  background-color: #fff;
+  height: 100%;
+  background: #f2f2f2;
+  background: -webkit-linear-gradient(-90deg, #f2f2f2, #fff);
+  background: linear-gradient(180deg, #f2f2f2, #fff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 [hidden], template {

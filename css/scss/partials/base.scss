@@ -51,7 +51,10 @@ textarea {
 }
 
 body {
-  background-color: $site-background;
+  height: 100%;
+  @include linear-gradient($color-off-white, $color-white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 [hidden], template {

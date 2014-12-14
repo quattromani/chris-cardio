@@ -9,6 +9,7 @@ url: "http://quattromani.github.io/chris-cardio"
 author: "Max Quattromani"
 twitter_username: maxquattromani
 github_username:  quattromani
+disqus: maxquattromani
 
 # Build settings
 markdown: kramdown

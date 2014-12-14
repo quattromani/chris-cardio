@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;AAOI,QAAS;EACP,gBAAgB,EC6DT,OAAK;ED5DZ,KAAK,ECwEO,IAAY;EDvExB,WAAW,EAAE,GAAG",
+"sources": ["../scss/partials/sections.scss","../scss/globals/_vars.scss"],
+"names": [],
+"file": "sections.css"
+}

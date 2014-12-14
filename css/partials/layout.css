@@ -22,7 +22,6 @@
 /* ==========================
     Grid
    ========================== */
-section,
 .row {
   zoom: 1;
   display: inline-block;
@@ -33,18 +32,14 @@ section,
   width: 100%;
   margin-bottom: 1em;
 }
-section:before, section:after,
-.row:before,
-.row:after {
+.row:before, .row:after {
   display: table;
   content: ' ';
   line-height: 0;
 }
-section:after,
 .row:after {
   clear: both;
 }
-section:only-child,
 .row:only-child {
   margin-bottom: 0;
 }

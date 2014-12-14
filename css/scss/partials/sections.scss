@@ -1,0 +1,12 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Sections -- Version: 0.4.1- Compiled: #{timestamp()}
+    ========================================================================== */
+
+    .contact {
+      background-color: $text;
+      color: $color-white;
+      font-weight: 400;
+    }

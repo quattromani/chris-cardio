@@ -72,7 +72,13 @@ textarea {
   letter-spacing: .035em; }
 
 body {
-  background-color: #fff; }
+  height: 100%;
+  background: #f2f2f2;
+  background: -webkit-linear-gradient(-90deg, #f2f2f2, #fff);
+  background: -webkit-linear-gradient(270deg, #f2f2f2, #fff);
+  background: linear-gradient(180deg, #f2f2f2, #fff);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 [hidden], template {
   display: none; }
@@ -120,7 +126,6 @@ textarea {
 /* ==========================
     Grid
    ========================== */
-section,
 .row {
   zoom: 1;
   display: inline-block;
@@ -130,16 +135,12 @@ section,
   *vertical-align: auto;
   width: 100%;
   margin-bottom: 1em; }
-  section:before, section:after,
-  .row:before,
-  .row:after {
+  .row:before, .row:after {
     display: table;
     content: ' ';
     line-height: 0; }
-  section:after,
   .row:after {
     clear: both; }
-  section:only-child,
   .row:only-child {
     margin-bottom: 0; }
 
@@ -3277,6 +3278,25 @@ footer {
  * Image replacement
  */
 /* ==========================================================================
+    Sections -- Version: 0.4.1- Compiled: timestamp()
+    ========================================================================== */
+.contact {
+  background-color: #324453;
+  color: #fff;
+  font-weight: 400; }
+
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
+/* ==========================================================================
     Nav -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
 nav {
@@ -4507,19 +4527,19 @@ optgroup {
       border: none;
       -moz-appearance: window; } }
 ::-webkit-input-placeholder {
-  color: #e6e6e6;
+  color: #b3b3b3;
   font-weight: 100; }
 
 :-moz-placeholder {
-  color: #e6e6e6;
+  color: #b3b3b3;
   font-weight: 100; }
 
 ::-moz-placeholder {
-  color: #e6e6e6;
+  color: #b3b3b3;
   font-weight: 100; }
 
 :-ms-input-placeholder {
-  color: #e6e6e6;
+  color: #b3b3b3;
   font-weight: 100; }
 
 .formitem {
