@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": ";;;;;;AAOA,MAAO;EACL,aAAa,EAAE,iBAA2B;EAC1C,gBAAgB,ECwEA,IAAY",
+"mappings": ";;;;;;AAOA,MAAO;EACL,gBAAgB,ECyEA,IAAY",
 "sources": ["../scss/partials/header.scss","../scss/globals/_vars.scss"],
 "names": [],
 "file": "header.css"

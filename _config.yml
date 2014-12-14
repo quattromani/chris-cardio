@@ -1,5 +1,5 @@
 # Site settings
-name: Chris-Cardio
+name: Chris-Cardio Personal Training
 version: 0.1.1
 author: Max Quattromani
 email: max@maxquattromani.com
@@ -9,6 +9,10 @@ url: "http://quattromani.github.io/chris-cardio"
 author: "Max Quattromani"
 twitter_username: maxquattromani
 github_username:  quattromani
+
+facebook_title: 'Chris Cardio - Making Workouts Happen'
+facebook_description: 'Chris Cardio - Making Workouts Happen'
+
 disqus: maxquattromani
 
 # Build settings
@@ -22,4 +26,4 @@ google_analytics: false
 google_analytics_id: UA-XXXXXXXX-X
 jquery_version: 1.9.0
 
-footer: "Chris Schieffer"
+footer: "Chris Schieffer Personal Trainer"

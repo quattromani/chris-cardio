@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": ";;;;;;AAOI,QAAS;EACP,gBAAgB,EC6DT,OAAK;ED5DZ,KAAK,ECwEO,IAAY;EDvExB,WAAW,EAAE,GAAG",
-"sources": ["../scss/partials/sections.scss","../scss/globals/_vars.scss"],
+"mappings": ";;;;;;AAWI,SAAU;ECqBZ,OAAO,EAAE,CAAyB;EAyKlC,UAAU,EAFH,wBAAoB;;AAIzB,aAAM;EACJ,UAAU,EAAE,WAAW;EACvB,UAAU,EAAE,4FAAsG;EAClH,MAAM,EAAC,yFAAmG;EAC1G,IAAI,EAAE,CAAC;;;AD/LT,QAAS;ECgBX,OAAO,EAAE,CAAyB;;;ADZhC,QAAS;EACP,gBAAgB,EEgDT,OAAK;EF/CZ,KAAK,EE2DO,IAAY;EF1DxB,WAAW,EAAE,GAAG",
+"sources": ["../scss/partials/sections.scss","../scss/globals/_mixins.scss","../scss/globals/_vars.scss"],
 "names": [],
 "file": "sections.css"
 }

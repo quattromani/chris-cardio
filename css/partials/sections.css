@@ -4,6 +4,21 @@
 /* ==========================================================================
     Sections -- Version: 0.4.1- Compiled: timestamp()
     ========================================================================== */
+.services {
+  padding: 0;
+  background: rgba(161, 211, 177, 0.5);
+}
+.ie .services {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80A1D3B1, endColorstr=#80A1D3B1)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80A1D3B1,endColorstr=#80A1D3B1);
+  zoom: 1;
+}
+
+.pricing {
+  padding: 0;
+}
+
 .contact {
   background-color: #324453;
   color: #fff;

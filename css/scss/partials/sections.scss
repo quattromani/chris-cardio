@@ -5,6 +5,19 @@
     Sections -- Version: 0.4.1- Compiled: #{timestamp()}
     ========================================================================== */
 
+    .about {
+
+    }
+
+    .services {
+      @include padding;
+      @include rgba($color-tertiary-green, $site-alpha);
+    }
+
+    .pricing {
+      @include padding;
+    }
+
     .contact {
       background-color: $text;
       color: $color-white;
