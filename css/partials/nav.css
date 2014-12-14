@@ -97,7 +97,6 @@ nav .show-menu {
     font-weight: normal;
     font-size: 20px;
     font-size: 2rem;
-    content: '\f0c9';
   }
 }
 nav input[type=checkbox] {

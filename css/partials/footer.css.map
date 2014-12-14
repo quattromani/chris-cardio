@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;AAOI,MAAO;ECyBT,OAAO,EAAE,KAAyB;EDvB9B,UAAU,EAAE,iBAA2B;EACvC,gBAAgB,EE0BJ,OAAO",
+"sources": ["../scss/partials/footer.scss","../scss/globals/_mixins.scss","../scss/globals/_vars.scss"],
+"names": [],
+"file": "footer.css"
+}

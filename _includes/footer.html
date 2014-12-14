@@ -1,7 +1,29 @@
     <!-- Footer Component -->
-    <footer class="container" role="contentinfo">
+    <footer role="contentinfo">
+      <div class="container">
+        <span class="small-body-text">&copy; <span id="year" class="getYear">year</span> {{ site.footer }}</span>
 
-      <span class="small-body-text">&copy; <span id="year" class="getYear">year</span> {{ site.footer }}</span>
+        <div class="social right">
+          <ul class="horizontal">
+            <li>
+              <a href="https://twitter.com/maxquattromani" title="{{ site.title }} Twitter - opens in new tab"><span class="fa fa-twitter-square fa-2x"></span></a>
+            </li>
+            <li>
+              <a href="https://github.com/quattromani" title="{{ site.title }} Facebook - opens in new tab"><span class="fa fa-facebook-square fa-2x"></span></a>
+            </li>
+            <li>
+              <a href="mailto:max@maxquattromani.com" title="{{ site.title }} eMail - opens in new tab"><span class="fa fa-envelope-square fa-2x"></span></a>
+            </li>
+            <li>
+              <a href="/sitemap.xml" title="sitemap"><i class="fa fa-sitemap fa-2x"></i></a>
+            </li>
+          </ul>
+        </div>
 
+        <hr>
+        <span class="small-body-text disclaimer">
+          The material contained within this website is provided for educational and informational purposes only and is not intended as an accompaniment or replacement to medical advice. It should not be used to diagnose or treat any illness, metabolic disorder, disease or health problem. As with all information and materials related to health, exercise and diet, you must first consult your doctor, physician or health care provider before implementing changes into your lifestyle. You must also consult your doctor before using any supplement – especially if you are currently taking medication, have an existing medical condition or if you are pregnant.﻿﻿
+        </span>
+      </div>
     </footer>
     <!-- ./Footer Component -->

@@ -6,7 +6,7 @@
 #       url: "/this-is-the-url-link-for this child-page"
 #       active: "this is the category, keeps the nav bar section highlighted"
 
-- name: <i class="fa fa-home fa-2x"></i>
+- name: <i class="fa fa-home fa-lg"></i>
   url: '/chris-cardio/'
 
 - name: "Events"
