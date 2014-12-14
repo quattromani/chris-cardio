@@ -52,8 +52,8 @@
 
 .half {
   float: left;
-  width: 49%;
-  margin-left: 2%;
+  width: 48%;
+  margin-left: 4%;
 }
 .marginless .half {
   float: left;
@@ -73,8 +73,8 @@
 
 .third {
   float: left;
-  width: 32%;
-  margin-left: 2%;
+  width: 30.66667%;
+  margin-left: 4%;
 }
 .marginless .third {
   float: left;
@@ -87,8 +87,8 @@
 @media (max-width: 62.5em) {
   .third {
     float: left;
-    width: 49%;
-    margin-left: 2%;
+    width: 48%;
+    margin-left: 4%;
   }
   .third:nth-child(even) {
     margin-left: 0;
@@ -104,8 +104,8 @@
 
 .fourth {
   float: left;
-  width: 23.5%;
-  margin-left: 2%;
+  width: 22%;
+  margin-left: 4%;
 }
 .marginless .fourth {
   float: left;
@@ -118,8 +118,8 @@
 @media (max-width: 62.5em) {
   .fourth {
     float: left;
-    width: 49%;
-    margin-left: 2%;
+    width: 48%;
+    margin-left: 4%;
   }
   .fourth:nth-child(even) {
     margin-left: 0;
@@ -136,8 +136,8 @@
 
 .fifth {
   float: left;
-  width: 18.4%;
-  margin-left: 2%;
+  width: 16.8%;
+  margin-left: 4%;
 }
 .marginless .fifth {
   float: left;
@@ -150,8 +150,8 @@
 @media (max-width: 62.5em) {
   .fifth {
     float: left;
-    width: 49%;
-    margin-left: 2%;
+    width: 48%;
+    margin-left: 4%;
   }
   .fifth:nth-child(even) {
     margin-left: 0;
@@ -168,8 +168,8 @@
 
 .sixth {
   float: left;
-  width: 15%;
-  margin-left: 2%;
+  width: 13.33333%;
+  margin-left: 4%;
 }
 .marginless .sixth {
   float: left;
@@ -182,8 +182,8 @@
 @media (max-width: 62.5em) {
   .sixth {
     float: left;
-    width: 32%;
-    margin-left: 2%;
+    width: 30.66667%;
+    margin-left: 4%;
   }
   .sixth:nth-child(3n) {
     margin-left: 0;
@@ -192,8 +192,8 @@
 
 .seventh {
   float: left;
-  width: 12.57143%;
-  margin-left: 2%;
+  width: 10.85714%;
+  margin-left: 4%;
 }
 .marginless .seventh {
   float: left;
@@ -206,8 +206,8 @@
 @media (max-width: 62.5em) {
   .seventh {
     float: left;
-    width: 32%;
-    margin-left: 2%;
+    width: 30.66667%;
+    margin-left: 4%;
   }
   .seventh:nth-child(3n) {
     margin-left: 0;
@@ -216,8 +216,8 @@
 
 .eighth {
   float: left;
-  width: 10.75%;
-  margin-left: 2%;
+  width: 9%;
+  margin-left: 4%;
 }
 .marginless .eighth {
   float: left;
@@ -230,8 +230,8 @@
 @media (max-width: 62.5em) {
   .eighth {
     float: left;
-    width: 23.5%;
-    margin-left: 2%;
+    width: 22%;
+    margin-left: 4%;
   }
   .eighth:nth-child(4n) {
     margin-left: 0;
@@ -240,8 +240,8 @@
 @media (max-width: 40em) {
   .eighth {
     float: left;
-    width: 49%;
-    margin-left: 2%;
+    width: 48%;
+    margin-left: 4%;
   }
   .eighth:nth-child(2n) {
     margin-left: 0;
@@ -250,8 +250,8 @@
 
 .ninth {
   float: left;
-  width: 9.33333%;
-  margin-left: 2%;
+  width: 7.55556%;
+  margin-left: 4%;
 }
 .marginless .ninth {
   float: left;
@@ -264,8 +264,8 @@
 @media (max-width: 62.5em) {
   .ninth {
     float: left;
-    width: 32%;
-    margin-left: 2%;
+    width: 30.66667%;
+    margin-left: 4%;
   }
   .ninth:nth-child(3n) {
     margin-left: 0;
@@ -274,8 +274,8 @@
 
 .tenth {
   float: left;
-  width: 8.2%;
-  margin-left: 2%;
+  width: 6.4%;
+  margin-left: 4%;
 }
 .marginless .tenth {
   float: left;
@@ -288,8 +288,8 @@
 @media (max-width: 62.5em) {
   .tenth {
     float: left;
-    width: 23.5%;
-    margin-left: 2%;
+    width: 22%;
+    margin-left: 4%;
   }
   .tenth:nth-child(4n) {
     margin-left: 0;
@@ -298,8 +298,8 @@
 @media (max-width: 40em) {
   .tenth {
     float: left;
-    width: 49%;
-    margin-left: 2%;
+    width: 48%;
+    margin-left: 4%;
   }
   .tenth:nth-child(2n) {
     margin-left: 0;
@@ -308,8 +308,8 @@
 
 .eleventh {
   float: left;
-  width: 7.27273%;
-  margin-left: 2%;
+  width: 5.45455%;
+  margin-left: 4%;
 }
 .marginless .eleventh {
   float: left;
@@ -322,8 +322,8 @@
 @media (max-width: 62.5em) {
   .eleventh {
     float: left;
-    width: 23.5%;
-    margin-left: 2%;
+    width: 22%;
+    margin-left: 4%;
   }
   .eleventh:nth-child(4n) {
     margin-left: 0;
@@ -332,8 +332,8 @@
 @media (max-width: 40em) {
   .eleventh {
     float: left;
-    width: 49%;
-    margin-left: 2%;
+    width: 48%;
+    margin-left: 4%;
   }
   .eleventh:nth-child(2n) {
     margin-left: 0;
@@ -342,8 +342,8 @@
 
 .twelfth {
   float: left;
-  width: 6.5%;
-  margin-left: 2%;
+  width: 4.66667%;
+  margin-left: 4%;
 }
 .marginless .twelfth {
   float: left;
@@ -356,8 +356,8 @@
 @media (max-width: 62.5em) {
   .twelfth {
     float: left;
-    width: 15%;
-    margin-left: 2%;
+    width: 13.33333%;
+    margin-left: 4%;
   }
   .twelfth:nth-child(6n) {
     margin-left: 0;
@@ -366,8 +366,8 @@
 @media (max-width: 62.5em) {
   .twelfth {
     float: left;
-    width: 32%;
-    margin-left: 2%;
+    width: 30.66667%;
+    margin-left: 4%;
   }
   .twelfth:nth-child(3n) {
     margin-left: 0;
@@ -376,8 +376,8 @@
 
 .golden-long {
   float: left;
-  width: 61.04079%;
-  margin-left: 2%;
+  width: 60.27689%;
+  margin-left: 4%;
 }
 .marginless .golden-long {
   float: left;
@@ -390,8 +390,8 @@
 
 .golden-short {
   float: left;
-  width: 36.95921%;
-  margin-left: 2%;
+  width: 35.72311%;
+  margin-left: 4%;
 }
 .marginless .golden-short {
   float: left;
@@ -404,8 +404,8 @@
 
 .two-fifths {
   float: left;
-  width: 38.8%;
-  margin-left: 2%;
+  width: 37.6%;
+  margin-left: 4%;
 }
 .marginless .two-fifths {
   float: left;
@@ -418,15 +418,15 @@
 @media (max-width: 62.5em) {
   .two-fifths {
     float: left;
-    width: 49%;
-    margin-left: 2%;
+    width: 48%;
+    margin-left: 4%;
   }
 }
 
 .three-fifths {
   float: left;
-  width: 59.2%;
-  margin-left: 2%;
+  width: 58.4%;
+  margin-left: 4%;
 }
 .marginless .three-fifths {
   float: left;
@@ -446,8 +446,8 @@
 
 .four-fifths {
   float: left;
-  width: 79.6%;
-  margin-left: 2%;
+  width: 79.2%;
+  margin-left: 4%;
 }
 .marginless .four-fifths {
   float: left;
@@ -467,8 +467,8 @@
 
 .two-thirds {
   float: left;
-  width: 66%;
-  margin-left: 2%;
+  width: 65.33333%;
+  margin-left: 4%;
 }
 .marginless .two-thirds {
   float: left;
@@ -488,8 +488,8 @@
 
 .three-fourths {
   float: left;
-  width: 74.5%;
-  margin-left: 2%;
+  width: 74%;
+  margin-left: 4%;
 }
 .marginless .three-fourths {
   float: left;
@@ -509,8 +509,8 @@
 
 .three-eighths {
   float: left;
-  width: 36.25%;
-  margin-left: 2%;
+  width: 35%;
+  margin-left: 4%;
 }
 .marginless .three-eighths {
   float: left;
@@ -530,8 +530,8 @@
 
 .five-eighths {
   float: left;
-  width: 61.75%;
-  margin-left: 2%;
+  width: 61%;
+  margin-left: 4%;
 }
 .marginless .five-eighths {
   float: left;
