@@ -1,0 +1,17 @@
+{% include head.html %}
+  {% include header.html %}
+  {% include nav.html %}
+
+	{% include content.html %}
+    <div class="row">
+      <div class="two-thirds">
+        {{ content }}
+      </div>
+      <div class="third">
+        {% include sidebar.html %}
+      </div>
+    </div>
+
+	{% include end_content.html %}
+	{% include footer.html %}
+{% include foot.html %}

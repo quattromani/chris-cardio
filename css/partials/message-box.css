@@ -1,0 +1,80 @@
+/*
+ * Image replacement
+ */
+/* ==========================================================================
+    Message Boxes -- Version: 0.2.1 - Compiled: timestamp()
+   ========================================================================== */
+.message {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
+}
+
+.message-loading, .message-valid, .message-warning {
+  display: flex;
+  align-items: center;
+  background: white;
+  font-weight: 700;
+}
+.message-loading:before, .message-valid:before, .message-warning:before {
+  display: flex;
+  align-items: center;
+  min-width: 3em;
+  font-family: "FontAwesome", Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  padding: .25em 1em;
+}
+
+.message-loading {
+  color: #ccc;
+}
+.message-loading:before {
+  background: white;
+  content: "u";
+}
+
+.message-valid {
+  color: #0f652a;
+}
+.message-valid:before {
+  background: #1dbd4e;
+  content: "C";
+}
+
+.message-warning {
+  color: #f28e9a;
+}
+.message-warning:before {
+  background: #fde9ec;
+  content: "3";
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.info-box {
+  border-left: .3em solid currentColor;
+  background: #a5e2dd;
+  color: #178c82;
+}
+
+.error-box {
+  border-left: .3em solid currentColor;
+  background: #f9d1d6;
+  color: #ed6071;
+}
+
+.valid-box {
+  border-left: .3em solid currentColor;
+  background: #a1d3b1;
+  color: #0f652a;
+}
+
+/*# sourceMappingURL=message-box.css.map */

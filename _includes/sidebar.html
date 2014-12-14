@@ -1,0 +1,68 @@
+
+<h3>Signup for My Newsletter</h3>
+<div class="cta-container">
+  <form action="//forms.brace.io/web@myterracare.com" method="POST">
+    <input type="hidden" name="form" value="Newsletter Signup">
+    <!-- Email Address -->
+    <div class="row">
+      <div class="formitem email">
+        <label for="email" class="required">Email Address:</label>
+        <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" required>
+      </div>
+    </div>
+    <!-- .Email Address -->
+
+    <!-- Form Housekeeping -->
+    <input type="hidden" name="_next" value="http://myterracare.com/thank-you/" />
+    <input type="text" name="_gotcha" style="display:none">
+    <!-- .Form Housekeeping -->
+
+    <div class="formitem">
+      <button class="btn btn-primary" type="submit" name="submit" value="submit">
+        <span>Subscribe</span>
+      </button>
+    </div>
+  </form>
+</div>
+
+<hr>
+
+<h5>Social Media</h5>
+
+<div class="twitter">
+  {% include twitter.html %}
+</div>
+
+<h2>{% if page.sidebar != null %}{{ page.sidebar }}{% else %}{{ page.parent }}{% endif %}</h2>
+
+<ul class="vertical lined">
+  {% for nav in site.data.nav %}
+  {% if nav.name == page.parent %}
+  <li>
+    <a href="{{ nav.url }}">{{ nav.name }}</a>
+  </li>
+  {% for child_link in nav.child_links %}
+
+  <li>
+    <a href="{{ nav.url }}{{ child_link.url }}">{{ child_link.name }}</a>
+  </li>
+
+  {% endfor %}
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<!-- Suggested Reading sidebar addition -->
+{% if page.relevant_links != null %}
+<hr>
+
+<h4>More on this Topic</h4>
+
+<ul class="vertical lined">
+  {% for plug in page.relevant_links %}
+  <li>
+    <a href="{{ plug.link }}"><i class="fa fa-newspaper-o"></i> {{ plug.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

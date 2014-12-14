@@ -1,0 +1,57 @@
+# - name: "This appears on the nav bar"
+#   url: "/this-is-the-url-link"
+#   active: "this is the category, keeps the nav bar section highlighted"
+#   child_links:
+#     - name: "This appears on the drop down below the nav bar"
+#       url: "/this-is-the-url-link-for this child-page"
+#       active: "this is the category, keeps the nav bar section highlighted"
+
+- name: <i class="fa fa-home fa-2x"></i>
+  url: '/chris-cardio/'
+
+- name: "Events"
+  url: "/events"
+  active: "events"
+  child_links:
+    - name: "Categories"
+      url: "/categories"
+      active: "events"
+    - name: "Locations"
+      url: "/locations"
+      active: "events"
+    - name: "My Bookings"
+      url: "/bookings"
+      active: "events"
+
+- name: "Photo Gallery"
+  url: "/photo-gallery"
+  active: "photo-gallery"
+
+- name: "Posts"
+  url: "/posts"
+  active: "posts"
+
+- name: "Prices"
+  url: "/prices"
+  active: "prices"
+
+- name: "Workout Programs"
+  url: "/workout-programs"
+  active: "blog"
+  child_links:
+    - name: "TRX Suspension Training"
+      url: "/trx-suspension"
+      active: "workout-programs"
+    - name: "Cardio &amp; Sports Drill Boot Camps"
+      url: "/cardio-sports"
+      active: "workout-programs"
+    - name: "High Intensity Interval Training (HIIT)"
+      url: "/high-intensity-interval-training"
+      active: "workout-programs"
+    - name: "Prenatal Excercise"
+      url: "/prenatal-excercise"
+      active: "workout-programs"
+
+- name: "Shopping"
+  url: "/shopping"
+  active: "shopping"
