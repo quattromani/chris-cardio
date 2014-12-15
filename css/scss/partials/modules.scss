@@ -38,6 +38,11 @@ hr {
       background-image: radial-gradient(farthest-side at center top, $color-light-grey 0%, rgba(255, 255, 255, 0) 100%);
     }
   }
+  
+  &.green {
+    border-top: 1px solid mix($color-tertiary-green,$color-white,70%);
+    border-bottom: 1px solid mix($color-tertiary-green,$color-white,30%);
+  }
 }
 
 hr.drama {

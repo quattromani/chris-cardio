@@ -4899,6 +4899,9 @@ hr {
       height: 30px;
       background-image: -webkit-radial-gradient(center top, farthest-side, #e6e6e6 0%, rgba(255, 255, 255, 0) 100%);
       background-image: radial-gradient(farthest-side at center top, #e6e6e6 0%, rgba(255, 255, 255, 0) 100%); }
+  hr.green {
+    border-top: 1px solid #bde0c8;
+    border-bottom: 1px solid #e2f1e7; }
 
 hr.sandbox {
   margin: 1em 0;
