@@ -29,7 +29,7 @@
 }
 
 .full {
-  @include col($site-column-count);
+  width: 100%;
 }
 
 .half {

@@ -4,3 +4,29 @@
 /* ==========================================================================
     Site Overrides -- Version: 0.4.0 - Compiled: #{timestamp()}
    ========================================================================== */
+
+.pricing-module {
+  @extend %clearfix !optional;
+  border: 1px solid $color-light-grey;
+  @include border-radius;
+  background: $color-white;
+  overflow: visible;
+  
+  header {
+	@include padding($spacing);
+	border-radius: $border-radius $border-radius 0 0;
+	background-color: $text;
+	color: $color-white;
+	text-align: center;
+  }
+  
+  section {
+	@include padding($spacing);
+  }
+  
+  footer {
+  	@include padding($spacing);
+  	border-radius: 0 0 $border-radius $border-radius;
+  	@include rgba($color-light-grey, $site-alpha);
+  }
+}

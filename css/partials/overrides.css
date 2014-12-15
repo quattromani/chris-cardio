@@ -1,8 +1,47 @@
+.pricing-module {
+  *zoom: 1;
+}
+.pricing-module:before, .pricing-module:after {
+  content: " ";
+  display: table;
+}
+.pricing-module:after {
+  clear: both;
+}
+
 /*
  * Image replacement
  */
 /* ==========================================================================
     Site Overrides -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
+.pricing-module {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  background-clip: padding-box;
+  background: #fff;
+  overflow: visible;
+}
+.pricing-module header {
+  padding: 1em;
+  border-radius: 5px 5px 0 0;
+  background-color: #324453;
+  color: #fff;
+  text-align: center;
+}
+.pricing-module section {
+  padding: 1em;
+}
+.pricing-module footer {
+  padding: 1em;
+  border-radius: 0 0 5px 5px;
+  background: rgba(230, 230, 230, 0.5);
+}
+.ie .pricing-module footer {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80E6E6E6, endColorstr=#80E6E6E6)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80E6E6E6,endColorstr=#80E6E6E6);
+  zoom: 1;
+}
 
 /*# sourceMappingURL=overrides.css.map */
