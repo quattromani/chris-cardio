@@ -15,9 +15,15 @@
   header {
 	@include padding($spacing);
 	border-radius: $border-radius $border-radius 0 0;
-	background-color: $text;
+	background-color: mix($text, transparent, 70%);
 	color: $color-white;
 	text-align: center;
+  }
+  
+  &.preferred {
+	header {
+	  @include rgba($text, 100%);
+	}
   }
   
   section {
