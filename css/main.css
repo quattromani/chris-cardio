@@ -4887,22 +4887,18 @@ hr {
   border: 0;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid white; }
-
-hr.drama {
-  height: 1px;
-  margin: 1em 0;
-  background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), color-stop(0.5, #b3b3b3), to(transparent));
-  background: -webkit-linear-gradient(left, transparent, #b3b3b3, transparent);
-  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#b3b3b3), to(transparent));
-  background: linear-gradient(left, transparent, #b3b3b3, transparent);
-  border: 0; }
-  hr.drama:after {
-    display: block;
-    content: '';
-    height: 30px;
-    background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 116, color-stop(0%, #cccccc), color-stop(100%, rgba(255, 255, 255, 0)));
-    background-image: -webkit-radial-gradient(center top, farthest-side, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
-    background-image: radial-gradient(farthest-side at center top, #cccccc 0%, rgba(255, 255, 255, 0) 100%); }
+  hr.drama {
+    height: 1px;
+    margin: 1em 0;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#b3b3b3), to(transparent));
+    background: -webkit-linear-gradient(left, transparent, #b3b3b3, transparent);
+    background: linear-gradient(left, transparent, #b3b3b3, transparent); }
+    hr.drama:after {
+      display: block;
+      content: '';
+      height: 30px;
+      background-image: -webkit-radial-gradient(center top, farthest-side, #e6e6e6 0%, rgba(255, 255, 255, 0) 100%);
+      background-image: radial-gradient(farthest-side at center top, #e6e6e6 0%, rgba(255, 255, 255, 0) 100%); }
 
 hr.sandbox {
   margin: 1em 0;
