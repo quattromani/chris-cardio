@@ -6,19 +6,20 @@
     ========================================================================== */
 
     .about {
-
+	  @include padding(50px, 0);
     }
 
     .services {
-      @include padding;
+      @include padding(50px, 0);
       @include rgba($color-tertiary-green, $site-alpha);
     }
 
     .pricing {
-      @include padding;
+      @include padding(50px, 0);
     }
 
     .contact {
+	  @include padding(50px, 0);
       background-color: $text;
       color: $color-white;
       font-weight: 400;
